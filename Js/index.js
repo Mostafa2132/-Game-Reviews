@@ -156,16 +156,16 @@ if (location.pathname.includes("/gameDetalis.html")) {
 function displayGameDetails(ele) {
   let x = `
   
-                  <div data-aos="fade-left" class="col-lg-5 px-0 mx-0">
+                  <div data-aos="fade-left" class="col-lg-5 px-0 ps-3 mx-0">
                     <img src="${ele.thumbnail}" class="" alt="">
                 </div>
-                <div class="col-lg-7 text-white px-0 mx-0 ">
-                        <h2 class="pb-0 mt-0">title : ${ele.title} </h2>
-                        <h4 class="py-3">Category : <span class="btn btn-info">${ele.genre}</span></h4>
-                        <h4 class="py-3">Platform : <span class="btn btn-info">${ele.platform}</span></h4>
-                        <h4 class="py-3">Status : <span class="btn btn-info">Live</span></h4>
+                <div class="col-lg-7 text-white px-0 ps-2 mx-0 ">
+                        <h2 class="pb-0 ps-2 mt-0">title : ${ele.title} </h2>
+                        <h4 class="py-3 ps-2">Category : <span class="btn btn-info">${ele.genre}</span></h4>
+                        <h4 class="py-3 ps-2">Platform : <span class="btn btn-info">${ele.platform}</span></h4>
+                        <h4 class="py-3 ps-2">Status : <span class="btn btn-info">Live</span></h4>
 
-                        <p class="py-3">${ele.short_description}</p>
+                        <p class="py-3 ps-2">${ele.short_description}</p>
 
 
                         <a  href="${ele.game_url}" target="_blank" class="btn  btn-outline-warning">Show game</a>
