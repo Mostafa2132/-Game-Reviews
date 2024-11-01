@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 0px) and (max-width:764px){
+    nav .container a{
+        font-size: 16px !important;
+    }
+    nav .container  a img{
+        width: 45px !important;
+    }
+}
