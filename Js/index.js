@@ -168,7 +168,7 @@ function displayGameDetails(ele) {
                         <p class="py-3 ps-2">${ele.short_description}</p>
 
 
-                        <a  href="${ele.game_url}" target="_blank" class="btn  btn-outline-warning">Show game</a>
+                        <a  href="${ele.game_url}" target="_blank" class="btn ms-2  btn-outline-warning">Show game</a>
                 </div>
   
   `;
